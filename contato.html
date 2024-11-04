@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Falta de Água nas Escolas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Falta de Água nas Escolas</h1>
+            <p>Conscientizando e Educando sobre Uso Consciente e Preservação da Água</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./Pages/sobre.html">Sobre</a></li>
+                <li><a href="./Pages/informacoes.html">Informações</a></li>
+                <li><a href="./Pages/contato.html" class="active">Contato</a></li>
+                <li><a href="./Pages/seguranca.html">Segurança no Uso da Água</a></li>
+                <li><a href="./Pages/eficiencia.html">Eficiência Hídrica</a></li>
+                <li><a href="./Pages/impacto.html">Impacto na Educação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="info">
+            <h2>Contato</h2>
+            <p>Se você deseja saber mais sobre a falta de água nas escolas, como se envolver em iniciativas de conscientização ou tem alguma dúvida, entre em contato conosco! Estamos aqui para ajudar e fornecer mais informações.</p>
+
+            <h3>Formulário de Contato</h3>
+            <form action="enviar_contato.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <h3>Informações Adicionais</h3>
+            <p>Você também pode nos contatar através das seguintes plataformas:</p>
+            <ul>
+                <li><strong>E-mail:</strong> contato@faltadeaguaescolas.org</li>
+                <li><strong>Telefone:</strong> (11) 1234-5678</li>
+                <li><strong>Redes Sociais:</strong>
+                    <ul>
+                        <li><a href="https://www.facebook.com/faltadeaguaescolas" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/faltadeaguaescolas" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.twitter.com/faltadeaguaescolas" target="_blank">Twitter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Falta de Água nas Escolas | Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
